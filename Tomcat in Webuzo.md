@@ -1,4 +1,6 @@
 
+## Installation
+
 -> Install an App -> Tomcat10
 -> ./usr/local/apps/tomcat10/bin/startup.sh
 -> nano /usr/local/apps/tomcat10/webapps/manager/META-INF/context.xml
@@ -11,7 +13,8 @@
 </Context>
 ```
 
-Berechtigungen setzen
+## Permissions 
+
 -> nano  /usr/local/apps/tomcat10/conf/tomcat-users.xml 
   ```xml 
   <user username="admin" password="DEIN_PASSWORT" roles="manager-gui"/>
@@ -31,9 +34,16 @@ Maximale Upload-Filesize erhöhen
 </servlet>
 ```
 
-Tomcat starten / stoppen
+## Server Start / Stop
+
 -> ./usr/local/apps/tomcat10/bin/startup.sh
 -> ./usr/local/apps/tomcat10/bin/shutdown.sh
+
+## Wipe cache
+
+-> rm -rf /usr/local/apps/tomcat10/work/Catalina/localhost/*
+
+## Logs
 
 Logs auslesen
 -> cat /usr/local/apps/tomcat10/logs/catalina.out
@@ -41,4 +51,6 @@ Logs auslesen
 Logs löschen
 -> echo "" > /usr/local/apps/tomcat10/logs/catalina.out 
 
+## Config
 
+-> nano  /usr/local/apps/tomcat10/conf/context.xml
