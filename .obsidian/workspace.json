@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-12-16.md",
+                "file": "DB Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-16"
+              "title": "DB Management"
             }
           }
         ],
@@ -203,19 +203,19 @@
   },
   "active": "3f37fbc91ecd4827",
   "lastOpenFiles": [
+    "Markdown Syntax.md",
+    "Tomcat in Webuzo.md",
+    "2024-12-16.md",
     "2024-12-17.md",
     "2024-12-19.md",
     "Abkürzungen.md",
     "DB Management.md",
     "icons_working.excalidraw.md",
-    "Markdown Syntax.md",
     "MarkMind.md",
-    "Tomcat in Webuzo.md",
     "Tools.md",
     "Zusammenfassung-Live-Hacking.md",
     "Welcome.md",
     "ASCII und was es damit auf sich hat.md",
-    "2024-12-16.md",
     "Excalidraw/Logo-Library.ex.md",
     "PDF.md",
     "11.12.2024 ASCII Text.pdf",
